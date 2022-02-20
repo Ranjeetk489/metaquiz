@@ -1,0 +1,69 @@
+.ques-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 7vh;
+  padding: 1rem;
+  padding-bottom: 6rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  box-shadow: var(--box-shadow-1);
+}
+
+.card-title {
+  margin: 1rem 0;
+  color: var(--primary-clr);
+  cursor: pointer;
+}
+
+.card-detail-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  gap: 4%;
+  margin-bottom: 1rem;
+  font-size: var(--font-size-4);
+  font-weight: var(--fw-1);
+}
+
+.que-container {
+  font-size: var(--font-size-2);
+  font-weight: var(--fw-1);
+  margin-bottom: 1rem;
+}
+
+.que-opt-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.que-opt {
+  margin-bottom: 1rem;
+  padding: 0.85rem 1.4rem;
+  border: 1px solid var(--complementary-clr);
+  font-size: var(--font-size-3);
+  cursor: pointer;
+  transition: all 0.4s ease-out;
+}
+
+.que-opt:hover {
+  background-color: var(--black-clr);
+  color: var(--bg-clr);
+}
+
+.card-nav-btns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.card-btn {
+  padding: 9px 1rem;
+  margin: 0 7px;
+  background-color: var(--tertiary-clr);
+  cursor: pointer;
+}
