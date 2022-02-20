@@ -1,0 +1,73 @@
+.result-card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: var(--box-shadow-2);
+}
+
+.card-title {
+  color: var(--primary-clr);
+  margin-top: 0rem;
+}
+.card-detail {
+  font-size: var(--font-size-3);
+  margin-bottom: 7px;
+}
+.card-detail-hl {
+  font-size: var(--font-size-2);
+  font-weight: var(--fw-1);
+}
+.card-score {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: var(--fw-1);
+  padding: 1rem;
+  padding-left: 1.8rem;
+  background-color: var(--tertiary-clr);
+}
+.card-score-hl {
+  margin-left: 2rem;
+  font-size: var(--font-size-1);
+}
+.card-ldrboard-rank {
+  margin-top: 1rem;
+}
+.ldrboard-rank-hl {
+  font-size: var(--font-size-2);
+  padding: 3px 10px;
+  background-color: var(--tertiary-clr);
+}
+.card-btn-container {
+  margin: 2rem 0;
+}
+.action-btn {
+  padding: 0.6rem 1rem;
+  background-color: var(--secondary-clr);
+  text-decoration: none;
+  font-size: var(--font-size-3);
+  font-weight: var(--fw-1);
+  color: var(--bg-clr);
+  margin-left: 1rem;
+  border-radius: 4px;
+  transition: all 0.4s ease-out;
+}
+.sec-btn {
+  padding: 0.5rem 1rem;
+  background-color: var(--bg-clr-1);
+  border: 1px solid var(--black-clr);
+  color: var(--black-clr);
+}
+.pri-btn:hover {
+  background-color: var(--red-shade-clr);
+}
+.sec-btn:hover {
+  color: var(--bg-clr);
+  background-color: var(--black-clr);
+}
