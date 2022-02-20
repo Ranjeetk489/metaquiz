@@ -7,9 +7,10 @@
   padding-bottom: 1rem;
 }
 .quiz-card {
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: var(--box-shadow-2);
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 .quiz-card-img {
   width: 15rem;
@@ -42,6 +43,7 @@
 .quiz-scores-container {
   margin-top: 3rem;
   margin-bottom: 5rem;
+  cursor: pointer;
 }
 .quiz-scores-row-title {
   font-size: var(--font-size-1);
@@ -52,7 +54,7 @@
   grid-template-rows: repeat(8, auto);
   grid-template-columns: 20% 20% 40% 20%;
   font-size: var(--font-size-3);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: var(--box-shadow-2);
   padding: 1.4rem 7px;
 }
 .quiz-score-container {
